@@ -86,7 +86,7 @@ function Game() {
     return (
         <div>
             <div className="app">
-                <h1>Memory Game</h1>
+                <h1>Memory Game <i className="fa-solid fa-brain " style={{color:'white'}}></i></h1>
                 <button onClick={shuffleCard}>New Game</button>
 
                 <div className="card-grid">
